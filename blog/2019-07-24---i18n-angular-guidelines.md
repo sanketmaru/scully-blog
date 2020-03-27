@@ -2,7 +2,7 @@
 title: Guidelines for handling i18n in Angular
 author: Sanket Maru
 date: 2019-07-24
-hero: ./images/small.jpeg
+hero: ./assets/images/small.jpeg
 excerpt: This post contains a set of statements on how to tag particular element with i18n and cases developer needs to consider while coding.
 ---
 

@@ -2,7 +2,7 @@
 title: Insights into Angular ng-template, ngTemplateOutlet
 author: Sanket Maru
 date: 2019-03-25
-hero: ./images/medium.png
+hero: ./assets/images/medium.png
 excerpt: Angular uses ng-template, ng-content extensively. It becomes sometimes confusing how to use this concepts and more importantly when to use it. We will see a use case where ng-template powers us to reuse a card component inside a carousel and a grid view.
 ---
 
@@ -14,7 +14,7 @@ We want to build a similar component where carousel accepts the card or the grid
 
 ![Carousel Items.png](../assets/images/carousel-items.png)
 
-![Grid Items.png](./images/grid-items.png)
+![Grid Items.png](../assets/images/grid-items.png)
 
 *Images are taken from Amazon Prime.*
 

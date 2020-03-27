@@ -2,7 +2,7 @@
 title: Wrote my first babel plugin!( Its Simple )
 author: Sanket Maru
 date: 2019-06-22
-hero: ./images/ast-explorer.png
+hero: ./assets/images/ast-explorer.png
 excerpt: I wrote my first babel plugin which reduces the size of the web app my removing class methods and jsx elements. The motivation is to remove class methods which are not executed when app is viewed in mobile view.
 ---
 

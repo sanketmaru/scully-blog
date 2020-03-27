@@ -2,7 +2,7 @@
 title: Its never too late
 author: Sanket Maru
 date: 2019-03-24
-hero: ./src/assets/images/books.jpeg
+hero: ./assets/images/books.jpeg
 excerpt: The great aim of knowledge of education is not knowledge but action
 ---
 
