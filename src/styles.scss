@@ -1,7 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+* {
+  box-sizing: border-box;
+}
+
+//----------------------------------*\
+// Fonts
+//----------------------------------*/
+@import '_fonts.scss';
+// primary font
+
+$primary_font: 'Poppins';
+
+// font-weight
+$thin:100;
+$light:300;
+$regular:400;
+$bold:700;
+$black:900;
+
+// Font size
+$font-xs:12px;
+$font-sm: 14px;
+$primary-fs: 16px;
+$font-md: 18px;
+$font-lg: 20px;
+
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 98%);
+  font-family: $primary_font;
+  font-size: $primary-fs;
+  font-weight: $regular;
+}
 
 /* include CSS for prism toolbar */
 @import '~prismjs/plugins/toolbar/prism-toolbar.css';

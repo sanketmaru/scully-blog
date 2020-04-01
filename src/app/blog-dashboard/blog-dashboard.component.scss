@@ -1,21 +1,26 @@
-.grid-container {
-  margin: 20px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-.dashboard-card {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  right: 15px;
-  bottom: 15px;
+.box {
+  background-color: #fff;
+  padding: 30px;
+  width: 350px;
+  margin: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.more-button {
-  position: absolute;
-  top: 5px;
-  right: 10px;
+img {
+  width: 100%;
 }
 
-.dashboard-card-content {
-  text-align: center;
+h3 {
+  font-weight: 500;
 }
+

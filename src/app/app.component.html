@@ -1,22 +1,28 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<app-header></app-header>
-
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav-content>
+  <mat-sidenav #drawer>
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item href="#">Link 1</a>
+      <a mat-list-item href="#">Link 2</a>
+      <a mat-list-item href="#">Link 3</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  
+  <mat-sidenav-content>  
     <mat-toolbar color="primary">
-      <span>Sanket Maru</span>
+      <mat-toolbar-row>
+        <span>Sanket Maru</span>
+        <span class="example-spacer"></span>
+        <!-- <button>About</button>
+        <button>Contact</button>
+        <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
+        <mat-icon class="example-icon" aria-hidden="false" aria-label="Example delete icon">delete</mat-icon> -->
+      </mat-toolbar-row>
+      
     </mat-toolbar>
     <!-- Add Content Here -->
-    <ng-container>
-      <router-outlet></router-outlet>
-    </ng-container>
+    
+    <router-outlet></router-outlet>
+    
   </mat-sidenav-content>
 </mat-sidenav-container>

@@ -10,7 +10,8 @@
     "e2e": "ng e2e",
     "scully": "scully",
     "build:scully": "npm run build && npm run scully",
-    "scully:serve": "scully serve"
+    "scully:serve": "scully serve",
+    "post": "ng generate @scullyio/init:post --name=process.env.name"
   },
   "private": true,
   "dependencies": {

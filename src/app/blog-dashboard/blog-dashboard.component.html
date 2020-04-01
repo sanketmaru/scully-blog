@@ -1,20 +1,9 @@
-<div class="grid-container">
-  <!-- <h1 class="mat-h1">Blogs</h1> -->
-  <mat-grid-list cols="3" rowHeight="350px">
-    <ng-container *ngFor="let route of scully.available$ | async">
-      <mat-grid-tile *ngIf="route.title">
-        <mat-card class="dashboard-card" [routerLink]="route.route">
-          <mat-card-header>
-            <mat-card-title>
-              {{route.title || route.route}}
-            </mat-card-title>
-          </mat-card-header>
-          <img mat-card-image src="{{route.hero}}">
-          <mat-card-content class="dashboard-card-content">
-            <div>{{route.excerpt}}</div>
-          </mat-card-content>
-        </mat-card>
-      </mat-grid-tile>
-    </ng-container>
-  </mat-grid-list>
+<div class="container">
+  <ng-container *ngFor="let route of scully.available$ | async">
+    <div class="box" *ngIf="route.title" [routerLink]="route.route">
+      <h3>{{route.title}}</h3>
+      <img src="{{route.hero}}">
+      <p>{{route.excerpt}}</p>
+    </div>
+  </ng-container>
 </div>
