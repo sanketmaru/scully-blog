@@ -4,6 +4,7 @@ import { BlogDashboardComponent } from './blog-dashboard/blog-dashboard.componen
 
 const routes: Routes = [
   { path: 'blog', loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule) },
+  { path: 'about', loadChildren: () => import('./about/about.module').then(m => m.AboutModule) },
   { path: '', component:  BlogDashboardComponent}
 ];
 

@@ -1,28 +1,25 @@
-<mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #drawer>
-    <mat-toolbar>Menu</mat-toolbar>
-    <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
-    </mat-nav-list>
-  </mat-sidenav>
-  
-  <mat-sidenav-content>  
-    <mat-toolbar color="primary">
-      <mat-toolbar-row>
-        <span>Sanket Maru</span>
-        <span class="example-spacer"></span>
-        <!-- <button>About</button>
-        <button>Contact</button>
-        <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
-        <mat-icon class="example-icon" aria-hidden="false" aria-label="Example delete icon">delete</mat-icon> -->
-      </mat-toolbar-row>
-      
-    </mat-toolbar>
-    <!-- Add Content Here -->
-    
+<div class="container">
+  <div class="header">
+    <nav class="flex-nav">
+      <img src="../assets/images/cover_photo.jpg" alt="SM">
+      <ul>
+        <li class="social">
+          <a target="_blank" href="http://twitter.com/sanketmaru"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li class="social">
+          <a target="_blank" href="http://github.com/sanketmaru"><i class="fa fa-github"></i></a>
+        </li>
+        <li class="social">
+          <a target="_blank" href="https://www.linkedin.com/in/sanket-maru-00314025/"><i class="fa fa-linkedin"></i></a>
+        </li>
+        <li><a routerLink="/about">About</a></li>
+        <li><a routerLink="/">Blog</a></li>
+        <li><a routerLink="/snippets">Snippets</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div>
     <router-outlet></router-outlet>
-    
-  </mat-sidenav-content>
-</mat-sidenav-container>
+  </div>
+  
+</div>
