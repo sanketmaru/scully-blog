@@ -15,6 +15,25 @@
 .markdown-body p {
   margin-top: 0;
   margin-bottom: 10px;
+  line-height: 1.7;
+  opacity: 0.8;
+  font-size: 1.3em;
+}
+
+
+.markdown-body h1,
+.markdown-body h2 {
+	font-size: 2em;
+	position: relative;
+	letter-spacing: 2px;
+	line-height: 1.7;
+	margin: 0;
+	padding-top: 50px;
+}
+
+.markdown-body h3 {
+  font-size: 2em;
+  font-weight: 500;
 }
 
 .markdown-body img {

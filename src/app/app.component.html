@@ -1,25 +1,30 @@
 <div class="container">
-  <div class="header">
-    <nav class="flex-nav">
-      <img src="../assets/images/cover_photo.jpg" alt="SM">
-      <ul>
-        <li class="social">
-          <a target="_blank" href="http://twitter.com/sanketmaru"><i class="fa fa-twitter"></i></a>
-        </li>
-        <li class="social">
-          <a target="_blank" href="http://github.com/sanketmaru"><i class="fa fa-github"></i></a>
-        </li>
-        <li class="social">
-          <a target="_blank" href="https://www.linkedin.com/in/sanket-maru-00314025/"><i class="fa fa-linkedin"></i></a>
-        </li>
-        <li><a routerLink="/about">About</a></li>
-        <li><a routerLink="/">Blog</a></li>
-        <li><a routerLink="/snippets">Snippets</a></li>
-      </ul>
-    </nav>
-  </div>
+  <nav>
+    <div class="ins-container">
+      <div class="flex">
+        <div class="img-wrapper">
+          <img src="../assets/images/cover_photo.jpg" alt="SM" routerLink="/" />
+        </div>
+
+        <ul id="menu">
+          <li class="social">
+            <a target="_blank" href="http://twitter.com/sanketmaru"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="social">
+            <a target="_blank" href="http://github.com/sanketmaru"><i class="fa fa-github"></i></a>
+          </li>
+          <li class="social">
+            <a target="_blank" href="https://www.linkedin.com/in/sanket-maru-00314025/"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li><a routerLink="/about">About</a></li>
+          <li><a routerLink="/">Blog</a></li>
+          <!-- <li><a routerLink="/snippets">Snippets</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div>
     <router-outlet></router-outlet>
   </div>
-  
 </div>
+

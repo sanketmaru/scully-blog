@@ -1,0 +1,48 @@
+.container {
+	padding: 0 20px;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1200px;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.flex > div {
+	flex: 1;
+}
+
+.align-start {
+	align-items: flex-start;
+}
+
+header {
+	// background-color: var(--dark-violet);
+	// color: #fff;
+	padding: 50px 0;
+	position: relative;
+	margin-top: 80px;
+	margin-bottom: 250px;
+}
+
+header * {
+	z-index: 1;
+}
+
+img {
+	max-width: 100%;
+	margin-bottom: -250px;
+}
+
+line-top::before {
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1px;
+	width: 150px;
+}
