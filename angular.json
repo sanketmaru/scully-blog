@@ -121,6 +121,17 @@
               "devServerTarget": "scully-blog:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "name": "Sanket Maru",
+            "email": "sanketmaru@gmail.com",
+            "noBuild": true,
+            "repo": "https://github.com/sanketmaru/sanketmaru.github.io.git",
+            "dryRun": false,
+            "branch": "master"
+          }
         }
       }
     }
