@@ -9,5 +9,12 @@ exports.config = {
         folder: "./blog"
       }
     },
+    '/about': {
+      type: 'default',
+      slug: {
+        folder: "./src/app/about"
+      }
+    }
+    
   }
 };

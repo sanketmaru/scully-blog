@@ -16,7 +16,6 @@ import { AppComponent } from './app.component';
 import { BlogDashboardComponent } from './blog-dashboard/blog-dashboard.component';
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
-import { AboutModule } from './about/about.module';
 
 
 @NgModule({
@@ -39,8 +38,7 @@ import { AboutModule } from './about/about.module';
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule,
-    AboutModule
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
