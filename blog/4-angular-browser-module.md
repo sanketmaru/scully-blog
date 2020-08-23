@@ -1,11 +1,14 @@
 ---
-title: Angular Browser Module
-author: Sanket Maru
-date: 2020-03-25
-excerpt: Why you should import BrowserModule carefully in your application.
+title: 'Angular Browser Module'
+author: 'Sanket Maru'
+date: 2020-03-25T00:00:00.000Z
+excerpt: 'Why you should import BrowserModule carefully in your application.'
+published: true
 hero: ./assets/images/browser-module.png
----
+slugs:
+    - ___UNPUBLISHED___ke6pr7n2_kQnWbHyaGLtwNclGRQGp8vN8OnfhQsol
 
+---
 # Problem Statement
 
 In one of the existing projects i worked on, i was given a task of improving the performance of an Angular App. 

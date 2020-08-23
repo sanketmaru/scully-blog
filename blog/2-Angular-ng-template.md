@@ -1,11 +1,11 @@
 ---
-title: Insights into Angular ng-template, ngTemplateOutlet
-author: Sanket Maru
-date: 2019-03-25
+title: 'Insights into Angular ng-template, ngTemplateOutlet'
+author: 'Sanket Maru'
+date: 2019-03-25T00:00:00.000Z
 hero: ./assets/images/medium.png
-excerpt: Angular uses ng-template, ng-content extensively. It becomes sometimes confusing how to use this concepts and more importantly when to use it. We will see a use case where ng-template powers us to reuse a card component inside a carousel and a grid view.
+published: true
+excerpt: 'Angular uses ng-template, ng-content extensively. It becomes sometimes confusing how to use this concepts and more importantly when to use it. We will see a use case where ng-template powers us to reuse a card component inside a carousel and a grid view.'
 ---
-
 ## Problem Statement
 
 We want to build a simple reusable component which gives a grid view of cards or a list view ( Similar to what Amazon Prime has which shows list of movies in a carousel effect and when you click on See More it just redirects to grid page.)

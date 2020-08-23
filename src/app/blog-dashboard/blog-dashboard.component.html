@@ -1,9 +1,21 @@
-<div class="container">
+<div class="container flex flex-wrap">
   <ng-container *ngFor="let route of scully.available$ | async">
-    <div class="box" *ngIf="route.title" [routerLink]="route.route">
-      <h3>{{route.title}}</h3>
-      <img src="{{route.hero}}">
-      <p>{{route.excerpt}}</p>
+    <div *ngIf="route.published" class="flex-1 h-12 px-2">
+      <div class="max-w-md rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="{{route.hero}}">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">{{route.title}}</div>
+          <p class="text-gray-700 text-base">
+            {{route.excerpt}}
+          </p>
+        </div>
+        <!-- <div class="px-6 pt-4 pb-2">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+        </div> -->
+      </div>
     </div>
   </ng-container>
+  
 </div>

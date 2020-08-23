@@ -1,3 +1,8 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
@@ -9,10 +14,10 @@ html, body { height: 100%; }
 //----------------------------------*\
 // Fonts
 //----------------------------------*/
-@import '_fonts.scss';
+// @import '_fonts.scss';
 // primary font
 
-$primary_font: 'Poppins';
+// $primary_font: 'Poppins';
 
 // font-weight
 $thin:100;
@@ -28,13 +33,13 @@ $primary-fs: 16px;
 $font-md: 18px;
 $font-lg: 20px;
 
-body {
-  margin: 0;
-  background-color: hsl(0, 0%, 98%);
-  font-family: $primary_font;
-  font-size: $primary-fs;
-  font-weight: $regular;
-}
+// body {
+//   margin: 0;
+//   background-color: hsl(0, 0%, 98%);
+//   font-family: $primary_font;
+//   font-size: $primary-fs;
+//   font-weight: $regular;
+// }
 
 /* include CSS for prism toolbar */
 @import '~prismjs/plugins/toolbar/prism-toolbar.css';

@@ -4,6 +4,7 @@ author: Sanket Maru
 date: 2019-03-24
 hero: ./assets/images/books.jpeg
 excerpt: The great aim of knowledge of education is not knowledge but action
+published: true
 ---
 
 **Only knowledge that is used sticks in your minds.** 

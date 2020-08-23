@@ -1,6 +1,6 @@
 exports.config = {
-  projectRoot: "./src",
-  projectName: "scully-blog",
+  projectRoot: './src',
+  projectName: 'scully-blog',
   outDir: './dist/static',
   routes: {
     '/blog/:slug': {

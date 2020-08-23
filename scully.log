@@ -1,0 +1,57 @@
+The option outDir isn't configured, using default folder "[33m./dist/static/[39m".No routes defined in ""
+
+The option outDir isn't configured, using default folder "./dist/static/".No routes defined in ""
+
+No configuration for route "[33m/blog/:slug[39m" found. Skipping
+The option outDir isn't configured, using default folder "[33m./dist/static/[39m".No routes defined in ""
+
+The option outDir isn't configured, using default folder "[33m./dist/static/[39m".No routes defined in ""
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------Content file "[33m./blog/6-Angular-text-overflow-directive.md[39m" has no content!Content file "[33m./blog/7-RxJS-iif-operator.md[39m" has no content!The file [33m./blog/8-Blog-with-scully.md[39m is empty, scully will ignore.
+
+
+
+Content file "[33m./blog/6-Angular-text-overflow-directive.md[39m" has no content!Content file "[33m./blog/7-RxJS-iif-operator.md[39m" has no content!
+
+Content file "[33m./blog/6-Angular-text-overflow-directive.md[39m" has no content!Content file "[33m./blog/7-RxJS-iif-operator.md[39m" has no content!The file [33m./blog/8-Blog-with-scully.md[39m is empty, scully will ignore.
+
+
+Content file "[33m./blog/6-Angular-text-overflow-directive.md[39m" has no content!Content file "[33m./blog/7-RxJS-iif-operator.md[39m" has no content!
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------Content file "[33m./blog/6-Angular-text-overflow-directive.md[39m" has no content!Content file "[33m./blog/7-RxJS-iif-operator.md[39m" has no content!Content file "[33m./blog/8-Blog-with-scully.md[39m" has no content!
+
+
+
+Content file "[33m./blog/8-Blog-with-scully.md[39m" has no content!Content file "[33m./blog/6-Angular-text-overflow-directive.md[39m" has no content!Content file "[33m./blog/7-RxJS-iif-operator.md[39m" has no content!
+
+
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------Content file "[33m./blog/6-Angular-text-overflow-directive.md[39m" has no content!Content file "[33m./blog/7-RxJS-iif-operator.md[39m" has no content!Content file "[33m./blog/8-Blog-with-scully.md[39m" has no content!
+
+
+
+Content file "[33m./blog/8-Blog-with-scully.md[39m" has no content!Content file "[33m./blog/6-Angular-text-overflow-directive.md[39m" has no content!
+
+Content file "[33m./blog/7-RxJS-iif-operator.md[39m" has no content!
+
+----------------------------------
+Using stored unhandled routes!.
+   To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
+----------------------------------Content file "[33m./blog/6-Angular-text-overflow-directive.md[39m" has no content!Content file "[33m./blog/7-RxJS-iif-operator.md[39m" has no content!Content file "[33m./blog/8-Blog-with-scully.md[39m" has no content!
+
+
+
+Content file "[33m./blog/8-Blog-with-scully.md[39m" has no content!
+Content file "[33m./blog/6-Angular-text-overflow-directive.md[39m" has no content!Content file "[33m./blog/7-RxJS-iif-operator.md[39m" has no content!
+

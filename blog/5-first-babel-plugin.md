@@ -1,11 +1,14 @@
 ---
-title: Wrote my first babel plugin!( Its Simple )
-author: Sanket Maru
-date: 2019-06-22
+title: 'Wrote my first babel plugin!( Its Simple )'
+author: 'Sanket Maru'
+date: 2019-06-22T00:00:00.000Z
 hero: ./assets/images/ast-explorer.png
-excerpt: I wrote my first babel plugin which reduces the size of the web app my removing class methods and jsx elements. The motivation is to remove class methods which are not executed when app is viewed in mobile view.
----
+published: true
+excerpt: 'I wrote my first babel plugin which reduces the size of the web app my removing class methods and jsx elements. The motivation is to remove class methods which are not executed when app is viewed in mobile view.'
+slugs:
+    - ___UNPUBLISHED___ke6pr7n6_Ho61wc6C4qpRYD3C91ihIPPDM0jeKf8W
 
+---
 To write a babel plugin first you need to understand how babel plugins work. I will write down the things i required to write the plugin :-
 
 1. Go through the basics of [Babel-handbook](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md).
